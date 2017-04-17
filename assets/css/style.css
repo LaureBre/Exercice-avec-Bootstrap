@@ -1,0 +1,98 @@
+[class*="col"] {
+  padding: 0;
+  line-height: 100px;
+}
+
+nav {
+  background-color: #2255ff;
+  border-bottom: 6px solid #333333;
+}
+
+article {
+  border-left: 6px solid #333333;
+  border-right: 6px solid #333333;
+}
+
+.leaderboard {
+  background-color: #55ff22;
+  border-bottom: 6px solid #333333;
+}
+
+.entertainment {
+  background-color: #ff2255;
+  border-right: 6px solid #333333;
+}
+
+.sports {
+  background-color: #22ff55;
+}
+
+.food {
+  background-color: #ff5522;
+  border-right: 6px solid #333333;
+}
+
+.general {
+  background-color: #5522ff;
+}
+
+.geography {
+  background-color: #55aa00;
+  border-top: 6px solid #333333;
+}
+
+.history {
+  background-color: #aa5500;;
+  border-bottom: 6px solid #333333;
+}
+
+.science {
+  background-color: #0055aa;
+  border-right: 6px solid #333333;
+  border-bottom: 6px solid #333333;
+}
+
+.tv {
+  background-color: #5500aa;
+  border-bottom: 6px solid #333333;
+}
+
+.music {
+  background-color: #00aa55;
+  border-right: 6px solid #333333;
+}
+
+.profile {
+  background-color: #aa0055;
+}
+
+* {
+  color: white;
+  font-weight: bold;
+}
+
+p {
+  line-height: 50px;
+  padding-left: 20px;
+}
+
+img {
+  display: block;
+  margin: 0 auto 0 auto;
+  line-height: 100px;
+}
+
+[class*="col-lg-6"] img, .history img {
+  width: 100px;
+  height: 75px;
+}
+
+.leaderboard img, .geography img {
+    width: 200px;
+    height: 150px;
+    line-height: 300px;
+}
+
+.leaderboard p, .geography p {
+    line-height: 116px;
+}
